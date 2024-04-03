@@ -1,0 +1,14 @@
+{% extends 'base.html' %}{% block title %}Cupcakes{% endblock %} {% block
+content %}
+<div class="container-row">
+  <div id="cupcakes_list_div"></div>
+  <div class="container">
+    <form method="POST" class="container" action="/">
+      {{ form.hidden_tag() }} {{ form.flavor.label }} {{ form.flavor() }} {{
+      form.size.label }} {{ form.size() }} {{ form.rating.label }} {{
+      form.rating() }} {{ form.image.label }} {{ form.image() }} {{
+      form.submit() }}
+    </form>
+  </div>
+</div>
+{% endblock %}

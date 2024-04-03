@@ -1,0 +1,42 @@
+.cupcake_div {
+  display: flex;
+  margin: 0.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-row {
+  display: flex;
+}
+
+input[type="text"] {
+  width: 15rem;
+}
+
+input[type="submit"] {
+  width: 7rem;
+  height: 2rem;
+  color: white;
+  background-color: rgb(51, 51, 192);
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  border: none;
+}
+
+.cupcake_delete {
+  width: 4rem;
+  height: 2rem;
+  color: white;
+  background-color: rgb(204, 51, 24);
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  border: none;
+}
+
+img {
+  width: 10rem;
+  height: 10rem;
+}
